@@ -146,7 +146,7 @@ Notable parts I implemented:
 
 ## Mirror for firebase packages in Unity
 
-https://gitlab.com/google-unity-packages-mirror
+[google-unity-packages-mirror · GitLab](https://gitlab.com/google-unity-packages-mirror)
 
 - Built to avoid having to commit the large firebase core package into a project and instead download it from a git repository via the Unity package manager
 - Runs a scheduled CI/CD pipeline every night to download the .tgz unity packages published by google and pushes them to gitlab giving each version a tag so it can be used in the Unity package manager
@@ -295,7 +295,7 @@ When studying at Metropolia University of Applied Sciences I worked on these pro
 
 ## Post Effect Mask
 
-https://discussions.unity.com/t/applying-image-effects-to-specific-objects/666124/12
+[Applying image effects to specific objects - Unity discussions](https://discussions.unity.com/t/applying-image-effects-to-specific-objects/666124/12)
 
 - Mask any camera post effects. Use e.g. to apply a post effect only to defined objects
 - Draws an alpha mask and uses alpha blending to blend the processed image on top of the unprocessed image
