@@ -25,7 +25,7 @@ I have worked a lot on mobile games but I have interest in developing also for P
   - [Siimes 🌳](#siimes-)
 - [Metropolia UAS](#metropolia-uas)
   - [Procedural voxel terrain ⛰️](#procedural-voxel-terrain-️)
-  - [2d physics engine in JavaScript](#2d-physics-engine-in-javascript)
+  - [2d physics engine in JavaScript 🏀](#2d-physics-engine-in-javascript-)
   - [Chess AI in C++ ♟️](#chess-ai-in-c-️)
   - [Intro to OpenGL API in C++](#intro-to-opengl-api-in-c)
   - [Arkanoid 2016 🎮](#arkanoid-2016-)
@@ -213,11 +213,13 @@ When studying at Metropolia University of Applied Sciences I worked on these pro
 <img src="img/voxel-terrain2.png" height="300px" style="margin-left:1.5em">
 
 
-## 2d physics engine in JavaScript
+## 2d physics engine in JavaScript 🏀
 
-- A simple 2d physics engine and renderer
-- Using no libraries, only the canvas api and JavaScript in browsers
-- Supports collision detection between polygons
+[Physics2D](https://villevli.github.io/physics2d-js/)
+
+- Calculates collisions and forces between polygons
+- Uses no libraries, only the canvas api and JavaScript in browsers
+- Source: [villevli/physics2d-js](https://github.com/villevli/physics2d-js)
 
 
 ## Chess AI in C++ ♟️
