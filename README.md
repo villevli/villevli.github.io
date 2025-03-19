@@ -2,10 +2,15 @@ Hello, I'm Ville Lindblad. I'm an experienced game programmer with a passion for
 I have several years of professional experience using the **Unity** engine and **C#**.
 Other tech I have experience with includes **Python**, **C++**, **Bash**, **Java**, **JavaScript**, **HTML** and **CSS**.
 
-I care a lot about the performance of games and sometimes spend a lot of time profiling performance, eliminating GC allocations, overdraw, draw calls, etc.
-I make sure the projects I work on stay organized and try to reduce technical debt when I can.
+I make sure the projects I work on stay organized and follow best practices.
+I try to reduce technical debt when I can.
+I like helping others in the team to solve issues, avoid blockers and improve workflows.
 
-I have some interest in graphics programming too, having done some shaders, procedural textures and mesh generation.
+I like implementing lower level systems and components, automation and tools the most but I can work on higher level gameplay and UI development too.
+
+I care a lot about the performance of games and like spending time profiling performance, eliminating GC allocations, overdraw, draw calls, build size, etc.
+
+I also have some interest in graphics programming, having done some shaders, procedural textures and mesh generation.
 
 I have worked a lot on mobile games but I have interest in developing also for PC.
 
@@ -53,7 +58,13 @@ Gamified engagement with brands in a location based live service mobile game.
 - iOS
 - Android
 
-Notable parts I implemented:
+What I worked on:
+
+### Collaboration
+- Authored a "getting started" guide for developers, process guidelines and coding conventions document
+- Created technical design documents for various systems
+- Did code reviews and mentored a junior to improve code quality and avoid bugs
+- Worked as the technical "consultant" in the team. Helped to solve issues and giving guidance about the project, Unity and C#
 
 ### Features
 - Making your character walk smoothly on a floating origin tile based world map (Mapbox SDK) based on GPS location
@@ -61,6 +72,11 @@ Notable parts I implemented:
 - Social login using Firebase Auth, Sign in with Google, Apple and Facebook
 - UI stack system that supports loading canvases via additively loaded scenes when needed
 - Loading of png and jpg images from the web. Optimized loading, rescaling to optimize for the size on screen, pooling of textures and automatically loading and unloading when a surface or UI element becomes visible
+
+### Networking
+- Client side code and GraphQL queries for our backend API
+- HTTP request pipeline system in client with middleware methods to easily add logging, retrying, etc.
+- Wrapper interface for the backend API to easily swap the implementation to a mockup version in client for testing locally
 
 ### Optimization
 - Optimized code and assets to improve performance and battery life
@@ -78,9 +94,6 @@ Notable parts I implemented:
 - Asset reference search tool. Displays ref counts in the project window. Used multiple times to remove unused sprites or verify if some asset is safe to remove
 
 ### Tech
-- Client side code and GraphQL queries for our backend API
-- HTTP request pipeline system in client with middleware methods to easily add logging, retrying, etc.
-- Wrapper interface for the backend API to easily swap the implementation to a mockup version in client for testing locally
 - Refactored legacy code to make code more understandable and maintainable
 - Event system to make different game systems less coupled and an easy way to globally listen for events and state changes particularly in UI code
 - A way to easily reference assets to be loaded from assetbundles (simpler compared to Unity’s addressables) by serializing the guid in editor and converting it to assetbundle name and assetpath at build time. Also allows to create a weak reference in editor to avoid loading the referenced asset to memory before needed
@@ -89,7 +102,7 @@ Notable parts I implemented:
 - Built a GitLab CI/CD pipeline to run tests, build assetbundles and build the app for Android and iOS from self hosted Mac Mini and Windows machines
 - Bash script to install project Unity versions and other build and deployment tools automatically
 - Bash script to cache the Unity Library folder separately per each Unity version. Moving the folder instead of the slow zip and unzip that GitLab CI's own cache does
-- Installed build tools like Xcode, Firebase CLI, AWS CLI on the Mac Mini
+- Installed build tools like Xcode, Firebase CLI, AWS CLI
 - Solved various hard to diagnose errors after updating various SDKs or the build tools like Unity and Xcode
 - Python script to filter the log output of the Unity build process
 
@@ -103,10 +116,6 @@ Notable parts I implemented:
 - Implemented a wrapper for analytics events API to easily switch the underlying service
 - Designed the analytics events sent by the client based on requirements
 
-### Project
-- Wrote a "getting started" guide for developers, process guidelines and coding conventions document
-- Did code reviews and mentored a junior to improve code quality and avoid bugs
-
 <br style="clear:both">
 
 
@@ -119,7 +128,7 @@ Artful hyper casual game where you can build stained glass artworks by cutting a
 - Android
 - iOS
 
-Notable parts I implemented:
+What I worked on:
 - Algorithm for cutting a 2d mesh / polygon by drawing a line and generating the mesh from the list of edge points
 - Firebase Storage and Dynamic Links to share the artworks you create
 - Optimized sprites and guided the artist
@@ -131,12 +140,12 @@ Notable parts I implemented:
 
 <img src="img/taxi-dash.png" width="35%" style="float:right; padding-left:20px">
 
-Infinite runner where you drive a taxi, pick up and drop off passengers.
+Infinite runner where you drive a taxi, pick up and drop off passengers and plow through obstacles.
 - Unity
 - Android
 - iOS
 
-Notable parts I implemented:
+What I worked on:
 - Floating origin (camera stays still, world moves) to enable infinite run without floating point issues
 - "Air resistance" custom physics logic to make physics look correct
 - Online leaderboard using Firebase Realtime Database
@@ -166,7 +175,7 @@ Virtual reality game teaching about the use of renewable energy.
 - Unity
 - SteamVR
 
-Notable parts I implemented:
+What I worked on:
 - VR game controls using the SteamVR plugin
 - Drag to move around game map using controls similar to Google Earth VR
 - Day night cycle that continually adjusts light settings using curves and gradients
