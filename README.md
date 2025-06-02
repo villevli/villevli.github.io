@@ -61,13 +61,14 @@ Gamified engagement with brands in a location based live service mobile game.
 What I worked on:
 
 ### Collaboration
-- Authored a "getting started" guide for developers, process guidelines and coding conventions document
-- Created technical design documents for various systems
+- Worked in a team of 15 people using agile software development practises and git as version control software
+- Authored a "getting started" guide for developers, development process guidelines and coding conventions document
+- Created technical design documents for various features (Confluence)
 - Did code reviews and mentored a junior to improve code quality and avoid bugs
 - Worked as the technical "consultant" in the team. Helped to solve issues and giving guidance about the project, Unity and C#
 
 ### Features
-- Making your character walk smoothly on a floating origin tile based world map (Mapbox SDK) based on GPS location
+- Making a player character walk smoothly on a floating origin tile based world map (Mapbox SDK) based on GPS location
 - Character customizer. Clothes/wearables are defined using prefabs and scriptable objects and can be loaded from assetbundles
 - Social login using Firebase Auth, Sign in with Google, Apple and Facebook
 - UI stack system that supports loading canvases via additively loaded scenes when needed
@@ -91,12 +92,12 @@ What I worked on:
 - Improved iteration time by making the game playable without domain reload by fixing static initializations
 - Editor scripts and tooling to improve development workflows like quick scene, server and user selector in Unity's toolbar, game view object picker, etc.
 - Runtime logcat viewer using Java code to stream the logcat to a file and browse them e.g after a crash
-- Asset reference search tool. Displays ref counts in the project window. Used multiple times to remove unused sprites or verify if some asset is safe to remove
+- Asset reference search tool. Displays reference counts in the project window. Used multiple times to verify if some asset is safe to remove
 
 ### Tech
 - Refactored legacy code to make code more understandable and maintainable
 - Event system to make different game systems less coupled and an easy way to globally listen for events and state changes particularly in UI code
-- A way to easily reference assets to be loaded from assetbundles (simpler compared to Unity’s addressables) by serializing the guid in editor and converting it to assetbundle name and assetpath at build time. Also allows to create a weak reference in editor to avoid loading the referenced asset to memory before needed
+- A way to easily reference assets to be loaded from assetbundles (simpler compared to Unity’s addressables) by serializing the guid in editor and converting it to assetbundle name and assetpath at build time. Also allows to create a weak reference in editor to avoid loading the referenced asset to memory before it's needed
 
 ### CI/CD
 - Built a GitLab CI/CD pipeline to run tests, build assetbundles and build the app for Android and iOS from self hosted Mac Mini and Windows machines
@@ -105,6 +106,7 @@ What I worked on:
 - Installed build tools like Xcode, Firebase CLI, AWS CLI
 - Solved various hard to diagnose errors after updating various SDKs or the build tools like Unity and Xcode
 - Python script to filter the log output of the Unity build process
+- Python script to generate release notes for each build from the git history
 
 ### SDKs
 - Integrated Firebase Auth, Crashlytics and Analytics
