@@ -63,7 +63,8 @@ What I worked on:
 ### Collaboration
 - Worked in a team of 15 people using agile software development practises and git as version control software
 - Authored a "getting started" guide for developers, development process guidelines and coding conventions document
-- Created technical design documents for various features (Confluence)
+- Created technical design documents for various features
+- Was praised for clear and comprehensive Confluence documents and Jira tickets
 - Did code reviews and mentored a junior to improve code quality and avoid bugs
 - Worked as the technical "consultant" in the team. Helped to solve issues and giving guidance about the project, Unity and C#
 
