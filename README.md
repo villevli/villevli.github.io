@@ -1,14 +1,23 @@
-Hello, I'm Ville Lindblad. I'm an experienced game programmer with a passion for solving problems and building games.
+Hello, I'm Ville Lindblad. I'm an experienced programmer capable of solving problems and building games.
 I have several years of professional experience using the **Unity** engine and **C#**.
-Other tech I have experience with includes **Python**, **C++**, **Bash**, **Java**, **JavaScript**, **HTML** and **CSS**.
+Other tech I have experience with includes **Git**, **Python**, **Bash**, **Java**, **C++**, **JavaScript**, **HTML** and **CSS**.
+I'm also a fast learner of new technologies.
 
 I make sure the projects I work on stay organized and follow best practices.
 I try to reduce technical debt when I can.
 I like helping others in the team to solve issues, avoid blockers and improve workflows.
 
-I like implementing lower level systems and components, automation and tools the most but I can work on higher level gameplay and UI development too.
-
-I care a lot about the performance of games and like spending time profiling performance, eliminating GC allocations, overdraw, draw calls, build size, etc.
+Some things I have worked on (scroll down to projects for details):
+- Gameplay features and tech
+- UI features and tech
+- Integrating SDK's, backend services and analytics to mobile apps
+- Automation and tools to speed up development
+- Test automation and build scripts
+- CI/CD pipelines, setting up self hosted mac and windows runners
+- Publishing apps to Google Play and App Store and making them pass the review
+- Authoring technical design documents
+- Authoring documentation and guides for other developers in project
+- Optimization (profiling, memory usage, build size, eliminating GC allocations, overdraw, draw calls)
 
 I also have some interest in graphics programming, having done some shaders, procedural textures and mesh generation.
 
@@ -53,7 +62,7 @@ I have worked several years at Playstack as a programmer implementing the full r
 
 <img src="img/dibs.png" width="35%" style="float:right; padding-left:20px">
 
-Gamified engagement with brands in a location based live service mobile game.
+Gamified engagement with brands in a location based live service game.
 - Unity
 - iOS
 - Android
@@ -62,6 +71,7 @@ What I worked on:
 
 ### Collaboration
 - Worked in a team of 15 people using agile software development practises and git as version control software
+- Collaborated with artists and designers
 - Authored a "getting started" guide for developers, development process guidelines and coding conventions document
 - Created technical design documents for various features
 - Was praised for clear and comprehensive Confluence documents and Jira tickets
@@ -78,14 +88,7 @@ What I worked on:
 ### Networking
 - Client side code and GraphQL queries for our backend API
 - HTTP request pipeline system in client with middleware methods to easily add logging, retrying, etc.
-- Wrapper interface for the backend API to easily swap the implementation to a mockup version in client for testing locally
-
-### Optimization
-- Optimized code and assets to improve performance and battery life
-- Fixed methods using too much CPU or GC allocations per frame with help of the Unity profiler
-- Reduced overdraw and draw calls with help of the frame debugger
-- Reduced memory usage and app size by finding unused assets and optimizing sprite sizes and atlases with help of Unity's build report and a custom project scanning tool to find where assets are used
-- Optimized UI components like UIParticleSystem to reduce UI canvas rebuilds and layout updates
+- Wrapper interface for the backend API to easily swap the implementation to a mockup version in client for testing offline locally
 
 ### Tools
 - Runtime debug menu to view logs and adjust game settings on device. Used extensively by QA and to share logs
@@ -109,6 +112,11 @@ What I worked on:
 - Python script to filter the log output of the Unity build process
 - Python script to generate release notes for each build from the git history
 
+### Publishing
+- Set up signing certificates and provisioning profiles for publishing to App Store
+- Made changes to app and updated build tools to comply with Google Play and App Store requirements
+- Helped configure store pages and app information to pass reviews by Google and Apple
+
 ### SDKs
 - Integrated Firebase Auth, Crashlytics and Analytics
 - Integrated Google sign in plugin
@@ -118,6 +126,13 @@ What I worked on:
 ### Analytics
 - Implemented a wrapper for analytics events API to easily switch the underlying service
 - Designed the analytics events sent by the client based on requirements
+
+### Optimization
+- Optimized code and assets to improve performance and battery life
+- Fixed methods using too much CPU or GC allocations per frame with help of the Unity profiler
+- Reduced overdraw and draw calls with help of the frame debugger
+- Reduced memory usage and app size by finding unused assets and optimizing sprite sizes and atlases with help of Unity's build report and a custom project scanning tool to find where assets are used
+- Optimized UI components like UIParticleSystem to reduce UI canvas rebuilds and layout updates
 
 <br style="clear:both">
 
@@ -238,7 +253,7 @@ When studying at Metropolia University of Applied Sciences I worked on these pro
 
 - Pair programming for an AI chess competition
 - Alpha-beta algorithm
-- Optimizations like storing the 8x8 chessboard states in 64bit integer bitmasks
+- Optimizations like storing the 8x8 chessboard states in 64 bit integer bitmasks
 - Our program won the competition 🏆
 
 
