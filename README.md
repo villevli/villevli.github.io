@@ -70,8 +70,8 @@ Gamified engagement with brands in a location based live service game.
 What I worked on:
 
 ### Collaboration
-- Worked in a team of 15 people using agile software development practises and git as version control software
-- Collaborated with artists and designers
+- Worked in a team of 14 people using agile software development practises and git as version control software
+- Collaborated with designers, artists, programmers and QA
 - Authored a "getting started" guide for developers, development process guidelines and coding conventions document
 - Created technical design documents for various features
 - Was praised for clear and comprehensive Confluence documents and Jira tickets
