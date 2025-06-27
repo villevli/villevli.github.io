@@ -60,7 +60,7 @@ I have worked several years at Playstack as a programmer implementing the full r
 
 ## Snatch/Dibs 🗺️
 
-<img src="img/dibs.png" width="35%" style="float:right; padding-left:20px">
+<a href="img/dibs.png"><img src="img/dibs.png" width="35%" style="float:right; padding-left:20px"></a>
 
 Gamified engagement with brands in a location based live service game.
 - Unity
@@ -139,7 +139,7 @@ What I worked on:
 
 ## Glass Art 🎨
 
-<img src="img/glassart-cut.png" width="35%"  style="float:right; padding-left:20px">
+<a href="img/glassart-cut.png"><img src="img/glassart-cut.png" width="35%"  style="float:right; padding-left:20px"></a>
 
 Artful hyper casual game where you can build stained glass artworks by cutting and combining pieces.
 - Unity
@@ -156,7 +156,7 @@ What I worked on:
 
 ## Taxi Dash 🚖
 
-<img src="img/taxi-dash.png" width="35%" style="float:right; padding-left:20px">
+<a href="img/taxi-dash.png"><img src="img/taxi-dash.png" width="35%" style="float:right; padding-left:20px"></a>
 
 Infinite runner where you drive a taxi, pick up and drop off passengers and plow through obstacles.
 - Unity
@@ -187,7 +187,7 @@ At Metropolia Game Studio I worked on serious and educational games as customer 
 
 ## Soludus ☀️
 
-<img src="img/soludus-vr.png" width="45%" style="float:right; padding-left:20px">
+<a href="img/soludus-vr.png"><img src="img/soludus-vr.png" width="45%" style="float:right; padding-left:20px"></a>
 
 Virtual reality game teaching about the use of renewable energy.
 - Unity
@@ -203,7 +203,7 @@ What I worked on:
 
 ## Capitalistica 💰
 
-<img src="img/capitalistica.png" width="35%" style="float:right; padding-left:20px">
+<a href="img/capitalistica.png"><img src="img/capitalistica.png" width="35%" style="float:right; padding-left:20px"></a>
 
 Mobile game teaching maths and financial management.
 - Unity
@@ -214,7 +214,7 @@ Mobile game teaching maths and financial management.
 
 ## Siimes 🌳
 
-<img src="img/siimes.png" width="35%" style="float:right; padding-left:20px">
+<a href="img/siimes.png"><img src="img/siimes.png" width="35%" style="float:right; padding-left:20px"></a>
 
 Social game for use in elementary schools. Works in browsers using WebGL.
 - Unity
@@ -237,7 +237,7 @@ When studying at Metropolia University of Applied Sciences I worked on these pro
 - Realtime terrain modification using boolean operations on the distance field
 
 <br>
-<img src="img/voxel-terrain2.png" height="300px" style="margin-left:1.5em">
+<a href="img/voxel-terrain2.png"><img src="img/voxel-terrain2.png" height="300px" style="margin-left:1.5em"></a>
 
 
 ## 2d physics engine in JavaScript 🏀
@@ -277,7 +277,7 @@ When studying at Metropolia University of Applied Sciences I worked on these pro
 
 ## Fleet Commander 🚀
 
-<img src="img/fleetcommander.png" width="45%" style="float:right; padding-left:20px">
+<a href="img/fleetcommander.png"><img src="img/fleetcommander.png" width="45%" style="float:right; padding-left:20px"></a>
 
 - A space battle simulator where you build your fleet and watch a simulated battle in 3d space
 - Ships have "AI" steering and attack routines
@@ -287,7 +287,7 @@ When studying at Metropolia University of Applied Sciences I worked on these pro
 
 ## Space Incident 🚀
 
-<img src="img/spaceincident-procedural-corridors.png" width="45%" style="float:right; padding-left:20px">
+<a href="img/spaceincident-procedural-corridors.png"><img src="img/spaceincident-procedural-corridors.png" width="45%" style="float:right; padding-left:20px"></a>
 
 - A point and click graphic adventure game where you solve a mystery in a space station
 - Includes procedurally generated corridors
@@ -301,7 +301,7 @@ When studying at Metropolia University of Applied Sciences I worked on these pro
 
 ## Procedural planet 🌍
 
-<img src="img/procedural-planet.png" width="45%" style="float:right; padding-left:20px">
+<a href="img/procedural-planet.png"><img src="img/procedural-planet.png" width="45%" style="float:right; padding-left:20px"></a>
 
 - Shader graph
 - 3d fractal perlin noise on GPU
