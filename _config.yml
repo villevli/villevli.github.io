@@ -1,6 +1,27 @@
+title: Ville Lindblad
+author:
+  name: Ville Lindblad
+  email: villevli.dev@gmail.com
+
+description: >
+  Game & Tech Programmer
+
 remote_theme: jekyll/minima
+
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
 minima:
   skin: dark
+
+  social_links:
+    - title: villevli at GitHub
+      icon: github
+      url: "https://github.com/villevli"
+    - title: Ville Lindblad at LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/ville-lindblad/"
+
   hide_site_feed_link: true
