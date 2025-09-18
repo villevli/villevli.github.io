@@ -3,25 +3,24 @@ I have several years of professional experience using the **Unity** engine and *
 Other tech I have experience with includes **Git**, **Python**, **Bash**, **Java**, **C++**, **JavaScript**, **HTML** and **CSS**.
 I'm also a fast learner of new technologies.
 
+I strive for simple, easy to understand and maintainable code.
 I make sure the projects I work on stay organized and follow best practices.
 I try to reduce technical debt when I can.
-I like helping others in the team to solve issues, avoid blockers and improve workflows.
+I like helping others to solve issues, avoid blockers and improve workflows.
 
-Some things I have worked on (scroll down to projects for details):
+Some things I have worked on (Check the projects for more!):
 - Gameplay features and tech
 - UI features and tech
 - Integrating SDK's, backend services and analytics to mobile apps
-- Automation and tools to speed up development
-- Test automation and build scripts
+- Automation, tools and build scripts to speed up development
 - CI/CD pipelines, setting up self hosted mac and windows runners
 - Publishing apps to Google Play and App Store and making them pass the review
-- Authoring technical design documents
-- Authoring documentation and guides for other developers in project
+- Authoring technical design documents and onboarding guides
+- Mentoring juniors and conducting code reviews
 - Optimization (profiling, memory usage, build size, eliminating GC allocations, overdraw, draw calls)
 
-I also have some interest in graphics programming, having done some shaders, procedural textures and mesh generation.
-
-I have worked a lot on mobile games but I have interest in developing also for PC.
+My professional experience is in mobile games but I have interest in developing also for PC or console.
+I also have some interest in graphics programming, having done some shaders, procedural terrain, textures and mesh generation.
 
 - [LinkedIn](https://www.linkedin.com/in/ville-lindblad/)
 - [GitHub](https://github.com/villevli)
@@ -47,9 +46,9 @@ I have worked a lot on mobile games but I have interest in developing also for P
   - [Fleet Commander 🚀](#fleet-commander-)
   - [Space Incident 🚀](#space-incident-)
 - [Hobby projects](#hobby-projects)
+  - [Cubes (inspired by Minecraft) ⛰️](#cubes-inspired-by-minecraft-️)
   - [Procedural planet 🌍](#procedural-planet-)
   - [Procedural voxel terrain with LOD ⛰️](#procedural-voxel-terrain-with-lod-️)
-  - [Simple Minecraft clone](#simple-minecraft-clone)
   - [Post Effect Mask](#post-effect-mask)
   - [Portal mechanics](#portal-mechanics)
 
@@ -62,7 +61,7 @@ I have worked several years at Playstack as a programmer implementing the full r
 
 <a href="img/dibs.png"><img src="img/dibs.png" width="35%" style="float:right; padding-left:20px"></a>
 
-Gamified engagement with brands in a location based live service game.
+Gamified engagement with brands in a location-based live-service game.
 - Unity
 - iOS
 - Android
@@ -81,7 +80,7 @@ What I worked on:
 ### Features
 - Making a player character walk smoothly on a floating origin tile based world map (Mapbox SDK) based on GPS location
 - Player character customizer. Clothes/wearables are defined using prefabs and scriptable objects and can be loaded from assetbundles
-- Gifting. Players could gift items to friends or invite new players by sharing links. Implemented UI and client side logic. Designed the backend API together with a backend developer. Had a feature flag
+- Gifting. Players could gift items to friends or invite new players by sharing links. Implemented UI and client side logic. Designed the backend API and database model together with a backend developer. Had a feature flag
 - Social login using Firebase Auth, Sign in with Google, Apple and Facebook
 - Text localization. Texts defined in a csv file that can be also be hotfixed without a new build
 - UI stack system that supports loading canvases via additively loaded scenes when needed
@@ -101,9 +100,10 @@ What I worked on:
 
 ### Tools
 - Runtime debug menu to view logs and adjust game settings on device. Used extensively by QA and to share logs
-- Quick scene selector to improve iteration speed in a project built with multiple additively loaded scenes
 - Improved iteration time by making the game playable without domain reload by fixing static initializations
-- Editor scripts and tooling to improve development workflows like quick scene, server and user selector in Unity's toolbar, game view object picker, etc.
+- Quick scene selector in Unity's toolbar to improve the workflow in a project built with multiple additively loaded scenes
+- Quick server (dev, stage, prod) and user (Firebase auth) selector in Unity's toolbar
+- Game view object picker for debugging (Included in my [UnityEditorExtensions](https://github.com/villevli/UnityEditorExtensions) package)
 - Runtime logcat viewer using Java code to stream the logcat to a file and browse them e.g after a crash
 - Asset reference search tool. Displays reference counts in the project window. Used multiple times to verify if some asset is safe to remove
 - Created data sheets using Google Sheets and Apps Script for managing the localized texts and player character customization options
@@ -244,9 +244,9 @@ When studying at Metropolia University of Applied Sciences I worked on these pro
 
 - Bachelor's thesis
 - A tech demo with procedural generation of terrain and chunk based meshing to create an "infinite" world
-- Multiple layers of perlin noise to create a signed distance field resembling "mountains"
+- Multiple layers of perlin noise to create a signed distance field resembling mountains
 - Marching cubes for generating a mesh from the signed distance field
-- Multithreaded chunk loading and generation for "infinite" world
+- Multithreaded chunk loading and generation
 - Realtime terrain modification using boolean operations on the distance field
 
 <br>
@@ -255,11 +255,11 @@ When studying at Metropolia University of Applied Sciences I worked on these pro
 
 ## 2d physics engine in JavaScript 🏀
 
-[Physics2D](https://villevli.github.io/physics2d-js/)
+Try it here: [Physics2D](https://villevli.github.io/physics2d-js/)
 
-- Calculates collisions and forces between polygons
+- Physics simulation that calculates collisions and forces between polygons
 - Uses no libraries, only the canvas api and JavaScript in browsers
-- Source: [villevli/physics2d-js](https://github.com/villevli/physics2d-js)
+- Source code: [villevli/physics2d-js](https://github.com/villevli/physics2d-js)
 
 
 ## Chess AI in C++ ♟️
@@ -312,6 +312,21 @@ When studying at Metropolia University of Applied Sciences I worked on these pro
 
 # Hobby projects
 
+## Cubes (inspired by Minecraft) ⛰️
+
+<a href="img/cubes-cave.png"><img src="img/cubes-cave.png" width="45%" style="float:right; padding-left:20px"></a>
+
+- Procedural terrain made from blocks. Includes noise caves under ground
+- Generated in 16x16x16 chunks
+- Hidden surfaces are culled to make rendering very fast even with larger view distances
+- Using the burst compiler for all heavy calculations to make it many times faster
+- Using background threads to make traversal in the world smooth even when loading or generating chunks
+- Procedural generation with perlin noises is done in a GPU compute shader. 4096 chunks (16.7 million blocks) generates in under 20 milliseconds on RTX 3070
+- Source code: [villevli/cubes-unity](https://github.com/villevli/cubes-unity)
+
+<br style="clear:both">
+
+
 ## Procedural planet 🌍
 
 <a href="img/procedural-planet.png"><img src="img/procedural-planet.png" width="45%" style="float:right; padding-left:20px"></a>
@@ -330,11 +345,6 @@ When studying at Metropolia University of Applied Sciences I worked on these pro
 - Octree loading for level of detail based on distance to camera
 
 
-## Simple Minecraft clone
-
-- Experimenting with optimized minecraft style cube rendering with a generated mesh per chunk and hidden surface removal in an "infinite" chunked world
-
-
 ## Post Effect Mask
 
 [Applying image effects to specific objects - Unity discussions](https://discussions.unity.com/t/applying-image-effects-to-specific-objects/666124/12)
@@ -345,5 +355,6 @@ When studying at Metropolia University of Applied Sciences I worked on these pro
 
 ## Portal mechanics
 
-- Used camera and shader tricks, render texture and stencil buffer to create a portal between any 2 points in the 3d world
-- Code to teleport any objects passing through and keeping the relative orientation and velocity
+- Created a seamless portal between any 2 points in the 3d world (like in the game Portal)
+- Used cameras, shaders, render texture and stencil buffer
+- Teleports any objects passing through and keeping the relative orientation and velocity
