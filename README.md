@@ -79,9 +79,11 @@ What I worked on:
 
 ### Features
 - Making a player character walk smoothly on a floating origin tile based world map (Mapbox SDK) based on GPS location
-- Player character customizer. Clothes/wearables are defined using prefabs and scriptable objects and can be loaded from assetbundles
-- Gifting. Players could gift items to friends or invite new players by sharing links. Implemented UI and client side logic. Designed the backend API and database model together with a backend developer. Had a feature flag
+- Player character customizer. Clothes/wearables are defined using prefabs and scriptable objects and can be delivered via assetbundles
 - Social login using Firebase Auth, Sign in with Google, Apple and Facebook
+- Snatching. Players can steal boxes form other players via a minigame. Semi-realtime where players can use items and its effects will affect the other player
+- Gifting. Players can gift items to friends or invite new players by sharing links. Implemented UI and client side logic. Designed the backend API and database model together with a backend developer. Had a feature flag
+- Seasonal events. Customize map colors, props, UI colors, etc. Config and assets can be delivered via assetbundles
 - Text localization. Texts defined in a csv file that can be also be hotfixed without a new build
 - UI stack system that supports loading canvases via additively loaded scenes when needed
 - Loading of png and jpg images from the web. Optimized loading, rescaling to optimize for the size on screen, pooling of textures and automatically loading and unloading when a surface or UI element becomes visible
@@ -114,7 +116,7 @@ What I worked on:
 - A way to easily reference assets to be loaded from assetbundles (simpler compared to Unity’s addressables) by serializing the guid in editor and converting it to assetbundle name and assetpath at build time. Also allows to create a weak reference in editor to avoid loading the referenced asset to memory before it's needed
 
 ### CI/CD
-- Built a GitLab CI/CD pipeline to run tests, build assetbundles and build the app for Android and iOS from self hosted Mac Mini and Windows machines
+- Built a GitLab CI/CD pipeline to run tests, build and upload assetbundles and the app for Android and iOS from self hosted Mac Mini and Windows machines
 - Bash script to install project Unity versions and other build and deployment tools automatically
 - Bash script to cache the Unity Library folder separately per each Unity version. Moving the folder instead of the slow zip and unzip that GitLab CI's own cache does
 - Installed build tools like Xcode, Firebase CLI, AWS CLI
