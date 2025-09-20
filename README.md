@@ -40,14 +40,16 @@ I also have some interest in graphics programming, having done some shaders, pro
   - [Procedural voxel terrain ⛰️](#procedural-voxel-terrain-️)
   - [2d physics engine in JavaScript 🏀](#2d-physics-engine-in-javascript-)
   - [Chess AI in C++ ♟️](#chess-ai-in-c-️)
-  - [Intro to OpenGL API in C++](#intro-to-opengl-api-in-c)
+  - [Intro to OpenGL API in C++ 🐇](#intro-to-opengl-api-in-c-)
+  - [Embedded ventilation fan controller in C++ 🔌](#embedded-ventilation-fan-controller-in-c-)
   - [Arkanoid 2016 🎮](#arkanoid-2016-)
   - [Nox Daemonica 🕸️](#nox-daemonica-️)
   - [Fleet Commander 🚀](#fleet-commander-)
-  - [Space Incident 🚀](#space-incident-)
+  - [Space Incident 🌌](#space-incident-)
 - [Hobby projects](#hobby-projects)
   - [Cubes (inspired by Minecraft) ⛰️](#cubes-inspired-by-minecraft-️)
   - [Procedural planet 🌍](#procedural-planet-)
+  - [Defender arcade game prototype 👾](#defender-arcade-game-prototype-)
   - [Procedural voxel terrain with LOD ⛰️](#procedural-voxel-terrain-with-lod-️)
   - [Post Effect Mask](#post-effect-mask)
   - [Portal mechanics](#portal-mechanics)
@@ -272,9 +274,19 @@ Try it here: [Physics2D](https://villevli.github.io/physics2d-js/)
 - Our program won the competition 🏆
 
 
-## Intro to OpenGL API in C++
+## Intro to OpenGL API in C++ 🐇
 
 - Drawing a mesh with a texture and shader using the OpenGL API
+
+
+## Embedded ventilation fan controller in C++ 🔌
+
+- Control the speed of a ventilation fan
+- Fan is connected to an ABB frequency converter
+- Converter is controlled using Modbus protocol
+- Two operating modes: Manual and Automatic
+- LCD user interface
+- Arduino, LPCXpresso, UART, I2C
 
 
 ## Arkanoid 2016 🎮
@@ -300,7 +312,7 @@ Try it here: [Physics2D](https://villevli.github.io/physics2d-js/)
 <br style="clear:both">
 
 
-## Space Incident 🚀
+## Space Incident 🌌
 
 <a href="img/spaceincident-procedural-corridors.png"><img src="img/spaceincident-procedural-corridors.png" width="45%" style="float:right; padding-left:20px"></a>
 
@@ -337,6 +349,16 @@ Try it here: [Physics2D](https://villevli.github.io/physics2d-js/)
 - 3d fractal perlin noise on GPU
 
 <br style="clear:both">
+
+
+## Defender arcade game prototype 👾
+
+- Simple clone of the retro game Defender in Unity
+- Seamlessly looping game area
+- Parallax background
+- Minimap
+- Keyboard, mouse, gamepad and touch controls using the new Input System
+- Source code: [villevli/vl-defender-arcade](https://github.com/villevli/vl-defender-arcade)
 
 
 ## Procedural voxel terrain with LOD ⛰️
