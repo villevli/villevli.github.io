@@ -209,11 +209,13 @@ At Metropolia Game Studio I worked on serious and educational games as customer 
 Virtual reality game teaching about the use of renewable energy.
 - Unity
 - SteamVR
+- Source code: [Soludus/Soludus2Enercity](https://github.com/Soludus/Soludus2Enercity)
 
 What I worked on:
 - VR game controls using the SteamVR plugin
 - Drag to move around game map using controls similar to Google Earth VR
 - Day night cycle that continually adjusts light settings using curves and gradients
+- Integrated FMOD sounds into the game logic
 
 <br style="clear:both">
 
