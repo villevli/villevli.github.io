@@ -16,6 +16,8 @@ plugins:
 minima:
   skin: dark
 
+  nav_pages: []
+
   social_links:
     - title: villevli at GitHub
       icon: github
