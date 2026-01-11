@@ -1,4 +1,8 @@
-# Dibs 🗺️
+---
+layout: page
+title: Dibs
+permalink: /dibs
+---
 
 Dibs, a location-based live-service game that gamifies engagement with brands.
 Formerly known as "Snatch" (AR Treasure Hunt). Released on Android and iOS.
