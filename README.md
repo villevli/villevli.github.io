@@ -1,29 +1,26 @@
-Hello, I'm Ville Lindblad. I'm an experienced programmer capable of solving problems and building games.
+Hello, I'm Ville Lindblad. I'm an experienced programmer capable of solving problems and building games or apps.
 I have several years of professional experience using the **Unity** engine and **C#**.
 Other tech I have experience with includes **Git**, **Python**, **Bash**, **Java**, **C++**, **JavaScript**, **HTML** and **CSS**.
-I'm also a fast learner of new technologies.
+I'll learn new technologies when needed.
 
-I strive for simple, easy to understand and maintainable code.
-I make sure the projects I work on stay organized and follow best practices.
-I try to reduce technical debt when I can.
-I like helping others to solve issues, avoid blockers and improve workflows.
+Some things I have worked on:
+- [Dibs](#dibs-️) - Location based live-service game with multiplayer features
+- [Glass Art](#glass-art-) - Hyper casual art game
+- [Taxi Dash](#taxi-dash-) - Infinite runner
+- [Cubes](#cubes-️) - Procedural terrain generation and voxels
+- [Defender proto](#defender-proto-) - Prototype of the classic arcade game Defender
+- [Physics2D JS](#physics2d-js-) - 2d physics simulation in JavaScript
+- [Soludus](#soludus-️) - VR game teaching about the use of renewable energy
+- Scroll down for more!
 
-Some things I have worked on (Check the projects for more!):
-- Gameplay features and tech
-- UI features and tech
-- Integrating SDK's, backend services and analytics to mobile apps
-- Automation, tools and build scripts to speed up development
-- CI/CD pipelines, setting up self hosted mac and windows runners
-- Publishing apps to Google Play and App Store and making them pass the review
-- Authoring technical design documents and onboarding guides
-- Mentoring juniors and conducting code reviews
-- Optimization (profiling, memory usage, build size, eliminating GC allocations, overdraw, draw calls)
+I strive for code that is easy to understand and maintainable and I like building well organized projects.
+I help others to solve issues, avoid blockers and improve workflows.
 
 My professional experience is in mobile games but I have interest in developing also for PC, VR or console.
-I also have some interest in graphics programming, having done some shaders, procedural terrain, textures and mesh generation.
+I can also see myself working as a backend or fullstack engineer in the future.
 
-- [LinkedIn](https://www.linkedin.com/in/ville-lindblad/)
-- [GitHub](https://github.com/villevli)
+- [My work history in LinkedIn](https://www.linkedin.com/in/ville-lindblad/)
+- [My projects in GitHub](https://github.com/villevli)
 
 # Projects
 
@@ -34,23 +31,26 @@ Playstack - iOS / Android
 
 Gamified engagement with brands in a location-based live-service game. Includes multiplayer and AR features.
 
-- I worked as a Unity developer and C# programmer
-- Collaborated in an agile team. Wrote documentation and tech design (Git, Jira, Confluence)
+- Worked as a Unity developer and C# programmer
+- Collaborated in an agile team. Wrote documentation, onboarding guides and tech design (Git, Jira, Confluence)
+- Mentored juniors and conducted code reviews
 - Character movement on a tile based world map (Mapbox SDK) based on GPS location
-- Character customization (assetbundles, scriptable objects, import tools for artists)
-- Localization system (Google Sheets > download CSV and commmit to git)
-- Social login (Firebase auth, Google, Apple, email)
+- Character customization (import tools for artists, assetbundles, scriptable objects)
+- CI/CD pipeline in GitLab to test, build and upload the app to App Store and Google Play (yaml, git, bash, python, xcode, assetbundles, aws cli, self hosted runners)
+- Publishing (comply with technical Google Play and App Store requirements)
+- Localization system (Google Sheets, CSV)
+- Helped design our GraphQL backend api and some MongoDB models
+- Social login (Firebase auth, Google, Apple, email/password)
 - Seasonal events (remote configuration, assetbundles, scriptable objects)
-- Gifting (UI, client side logic, helped design the backend api and MongoDB model)
-- Utility code (GraphQL API pipeline, UI navigation stack, image downloader/cache, global event system, etc.)
-- CI/CD pipeline in GitLab to test, build and upload the app and assetbundles for App Store and Google Play (yaml, git, bash, python, xcode, aws cli, self hosted runners)
+- Gifting (UI, client side logic, api and db model design)
+- Utility code (web request pipeline, UI navigation stack, image downloader/cache, global event system, etc.)
 - Runtime tools (Debug menu, console, inspector)
-- Editor tools and workflow optimization (scene, user, server selector, etc.)
+- Editor tools and workflow optimization (editor scripts, scene/user/server selector, etc.)
 - Testing (unit tests, mockup backend for UI testing)
-- Optimization of runtime performance, memory usage and build size
-- Publishing (comply with Google Play and App Store requirements)
+- Optimization (profiling, memory usage, build size, eliminating GC allocations, overdraw, draw calls)
 - SDK integrations (Firebase Auth, Crashlytics, Analytics, Google sign in, Sign in with Apple, OneSignal, Branch.io)
-- Analytics (designed and implemented client events)
+- Analytics events (designed and implemented client events)
+- Prototyped AR minigames (Vuforia, later AR Foundation)
 
 [View details about Dibs](projects/dibs.md)
 
@@ -60,7 +60,7 @@ Gamified engagement with brands in a location-based live-service game. Includes 
 ## Glass Art 🎨
 Playstack - iOS / Android
 
-<a href="img/glassart-cut.png"><img src="img/glassart-cut.png" width="35%"  style="float:right; padding-left:20px"></a>
+<a href="img/glassart-cut.png"><img src="img/glassart-cut.png" width="35%" style="float:right; padding-left:20px"></a>
 
 Artful hyper casual game where you can build stained glass artworks by cutting and combining pieces.
 
@@ -92,7 +92,7 @@ Personal project - PC / Android
 
 <a href="img/cubes-cave.png"><img src="img/cubes-cave.png" width="45%" style="float:right; padding-left:20px"></a>
 
-A tech demo inspired by Minecraft.
+Cube based procedural world in Unity. Inspired by Minecraft.
 
 Source code: [villevli/cubes-unity](https://github.com/villevli/cubes-unity)
 
@@ -120,10 +120,10 @@ Personal project
 <br style="clear:both">
 
 
-## Defender arcade game prototype 👾
+## Defender proto 👾
 Personal project - PC / Android
 
-Simple clone of the retro game Defender in Unity.
+Prototype of the classic arcade game Defender in Unity.
 
 Source code: [villevli/vl-defender-arcade](https://github.com/villevli/vl-defender-arcade)
 
@@ -133,8 +133,10 @@ Source code: [villevli/vl-defender-arcade](https://github.com/villevli/vl-defend
 - Keyboard, mouse, gamepad and touch controls using the new Input System
 
 
-## 2d physics engine in JavaScript 🏀
+## Physics2D JS 🏀
 Personal project. Started from a game physics course at Metropolia University of Applied Sciences
+
+2d physics simulation in JavaScript.
 
 Try it here: [Physics2D](https://villevli.github.io/physics2d-js/)
 
@@ -207,7 +209,7 @@ Thesis (finnish): [Vokselimaaston käsittely ja renderointi](https://www.theseus
 - Realtime terrain modification using boolean operations on the distance field
 
 <br>
-<a href="img/voxel-terrain2.png"><img src="img/voxel-terrain2.png" height="300px" style="margin-left:1.5em"></a>
+<a href="img/voxel-terrain2.png"><img src="img/voxel-terrain2.png" style="max-height:300px" ></a>
 
 
 ## Arkanoid 2016 🎮
