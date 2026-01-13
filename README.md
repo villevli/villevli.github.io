@@ -8,6 +8,7 @@ Some things I have worked on:
 - [Glass Art](#glass-art-) - Hyper casual art game
 - [Taxi Dash](#taxi-dash-) - Infinite runner
 - [Cubes](#cubes-️) - Procedural terrain generation and voxels
+- [Lockstep networking proto](#lockstep-networking-proto-) - Tech that enables large scale networked games
 - [Defender proto](#defender-proto-) - Prototype of the classic arcade game Defender
 - [Physics2D JS](#physics2d-js-) - 2d physics simulation in JavaScript
 - [Soludus](#soludus-️) - VR game teaching about the use of renewable energy
@@ -108,8 +109,33 @@ Source code: [villevli/cubes-unity](https://github.com/villevli/cubes-unity)
 <br style="clear:both">
 
 
+## Lockstep networking proto 🌐
+Personal project - PC / Unity
+
+Implementation of the lockstep networking protocol that allows syncing large scale game simulations over the network.
+Ideal for RTS games.
+
+- Relies on determinism so that only player inputs need to be sent over the network
+- Commands are buffered and simulation is advanced when commands from all players have arrived for the current tick
+- Uses Unity with the ECS framework (Unity Entities) and Burst
+- UDP messages over the network are sent using the low level Unity Transport library
+- In this project I learned ECS systems and some low level networking concepts
+
+
+## A-star pathfinding in a grid 🌟
+Personal project - PC / Unity
+
+Implementation of the a-star pathfinding algorithm in a grid.
+
+- Using Unity Entities, Job system and Burst to enable high performance
+- Priority Queue implemented using binary heap and native collections
+- Import test maps from images
+- Reading about possible optimizations like Jump Point Search
+- Reading about alternate solutions like Flow Field pathfinding
+
+
 ## Procedural planet shader 🌍
-Personal project
+Personal project - Unity
 
 <a href="img/procedural-planet.png"><img src="img/procedural-planet.png" width="45%" style="float:right; padding-left:20px"></a>
 
