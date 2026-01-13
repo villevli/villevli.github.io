@@ -146,8 +146,38 @@ Source code: [villevli/physics2d-js](https://github.com/villevli/physics2d-js)
 - Uses no libraries, only the canvas api and JavaScript in browsers
 
 
+## UnityExtensions
+Personal project - Unity Library
+
+Collection of small extensions, utils and property attributes for Unity.
+
+Source code: [villevli/UnityExtensions](https://github.com/villevli/UnityExtensions)
+
+- SingleLineAttribute - Draw a serialized field on a single line even if it's a struct with multiple fields
+- EnumDropdownAttribute - Draw a string or int field as an enum dropdown
+- CSVParser - A simple utility to parse a csv file
+- SDateTime - A DateTime value that can be serialized in Unity and displayed in inspector
+- STimeSpan - A TimeSpan value that can be serialized in Unity and displayed in inspector
+- SDictionary - Dictionary that can be serialized in Unity and displayed in inspector.
+- EventSystemCallbacks - Global callbacks just before any EventSystem event is executed
+- SavedPrefs - PlayerPrefs but supports more types like bool, long, enum and DateTime.
+
+
+## UnityEditorExtensions
+Personal project - Unity Library
+
+Collection of small extensions, tools and tweaks for the Unity editor.
+
+Source code: [villevli/UnityEditorExtensions](https://github.com/villevli/UnityEditorExtensions)
+
+- DefaultAssetInspector - Shows the content of unsupported files in the inspector
+- GameViewObjectPicker - Left click to select the object that is visible under the cursor in game view.
+- GameViewScreenshot - Quickly take screenshots with F12 from the Game View or the Simulator View.
+- DockAreaDragAndDrop - Quickly open a tab for assets or objects that are dragged and dropped into the dock area.
+
+
 ## Mirror for firebase packages in Unity
-Personal project. Need for this arised when working on Dibs at Playstack
+Personal project - Unity Library. Need for this arised when working on Dibs at Playstack
 
 [google-unity-packages-mirror · GitLab](https://gitlab.com/google-unity-packages-mirror)
 
